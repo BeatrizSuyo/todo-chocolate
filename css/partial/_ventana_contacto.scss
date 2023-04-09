@@ -1,0 +1,56 @@
+.ventana_contacto {
+    background-color: $secondaryColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+    h1 {
+        font-family: $fontRoboto;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .formulario {
+        background-color: $mainColor;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding: 30px;
+        margin: 10px;
+        
+        .parrafo_contacto {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            align-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: 20px;
+        }
+        .form-control {
+            margin: 20px;
+            background-color: $secondaryColor;
+
+            &:hover {
+                background-color: rgba(12, 2, 2, 0.234);
+                border-color: rgba(12, 2, 2, 0.234);
+            }
+        }
+
+        .btn_enviar {
+            background-color: #b8860b;
+            font-family: $fontRoboto;
+            font-size-adjust: initial;
+            padding: 10px;
+            margin: 10px 20px;
+            border: 1px solid black;
+            border-radius: 50%;
+            height: 50;
+            width: 30;
+
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}

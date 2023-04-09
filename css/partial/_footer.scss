@@ -1,0 +1,18 @@
+.footer {
+    background-color: $mainColor;
+    font-family: $fontRoboto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .brown {
+        color: pink;
+        font-size: 45px;
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+    
+}

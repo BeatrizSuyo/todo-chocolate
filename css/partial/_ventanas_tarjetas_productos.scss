@@ -1,0 +1,90 @@
+.ventana_tarjetas_productos {
+    background-color: $secondaryColor;
+
+    h1 {
+        font-family: $fontRoboto;
+        padding: 20px;
+    }
+
+    .todo_tarjetas_seccion {
+        padding-bottom: 5px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+
+        .tarjetas_seccion {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: $mainColor;
+            width: 99%;
+            padding: 30px;
+            margin-bottom: 10px;
+            gap: 30px;
+            height: 100%;
+
+            @include tableta {
+
+                flex-wrap: wrap;
+                background-color: $mainColor;
+                justify-content: center;
+                align-items: center;
+        
+            }
+
+            .tarjeta_chocolate {
+                background-color: $secondaryColor;
+                padding: 30px;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+
+                .producto_chocolate_imagen {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .parrafo_chocolate {
+                    background-color: $secondaryColor;
+                    font-family: 'Roboto', sans-serif;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 20;
+                    margin: 30;
+                }
+
+                .precio i {
+                    font-size: larger;
+                    justify-content: center;
+                    color: #131311;
+                }
+
+                .btn_comprar {
+                    background-color: #ffc0cb;
+                    color: #131311;
+                    font-family: 'Roboto', sans-serif;
+                    padding: 10px;
+                    border-radius: 4%;
+                    border: 1px solid $mainColor;
+                    transition-property: background-color, color, border;
+                    transition-duration: 0.4s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        background-color: $mainColor;
+                        color: white;
+                        border: 1px solid white;
+                    }
+                }
+
+                
+            }
+        }
+
+    }
+}

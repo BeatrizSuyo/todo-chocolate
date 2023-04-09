@@ -1,0 +1,40 @@
+header {
+    background-color:$mainColor;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+   .logo {
+       width: 8rem;
+   }
+
+   .navbar {
+        background-color:$mainColor;
+        justify-content: end;
+        
+        .navbar-nav li {
+
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            font-family:$fontRoboto;
+            font-size: 25px;
+            padding-top: 10px;  
+            &:hover {
+                transform:rotate(30deg);
+             }
+            .nav-item {
+
+                a {
+                    color : rgb(47, 5, 5);
+                    text-decoration:none;
+
+                    
+                }
+            }
+        }
+
+    
+   }
+}

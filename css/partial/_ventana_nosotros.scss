@@ -1,0 +1,37 @@
+.ventana_nosotros {
+    background-color: $secondaryColor;
+
+    h1 {
+        font-family: $fontRoboto;
+        padding: 20px;
+    }
+
+    .section_parrafos {
+        background-color: $secondaryColor;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 100%;
+
+        .todos-parrafos {
+            border-radius: 10px;
+            background-color: $mainColor ;
+            margin-bottom: 20px;
+
+            .parrafo {
+                background-color: $mainColor;
+                padding: 20px;
+                align-content: center;
+                margin: auto;
+                font-family: $fontRoboto;
+
+                &::selection {
+                    background: $secondaryColor;
+                    color: rgba(0, 0, 0, 0.738);
+                }
+            }
+        }
+    }
+}

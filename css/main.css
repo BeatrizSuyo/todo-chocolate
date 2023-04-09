@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*/
+/**********  INICIO  **********/
+/*
+header {
+    background-color: #ffc0cb;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 8rem;
+}
+*/
+/*
+.navbar {
+    background-color: #ffc0cb;
+    justify-content: end;
+    
+}
+*/
+/*
+.navbar-nav li {
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family:'Roboto', sans-serif;;
+    font-size: 25px;    
+}
+*//*
+.nav-item a{
+    color : rgb(47, 5, 5);
+    text-decoration:none;
+}
+*//*
+.ventana_tarjetitas {
+    background-color:#EEE8AA ;
+}
+
+.tarjetitas_principal {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+*//*
+.card {
+    background-color: #ffc0cb;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33%;
+}
+*//*
+.card__image{
+    width: 100%;
+}
+*//*
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}*/
+/*
+h2{
+    font-family: 'Roboto', sans-serif;
+}*//*
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+.tarjetitas card p{
+    font-family: 'Roboto', sans-serif;
+}
+.tarjetitas card a{
+    font-family: 'Roboto', sans-serif;
+}
+*//*
+.footer {
+    background-color: #ffc0cb;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brown {
+    color: rgba(9, 9, 8, 0.425);
+    font-size: 50px;
+}
+*/
+
+/**********  NOSOTROS  **********/
+/*
+.ventana_nosotros {
+    background-color: #EEE8AA;
+}
+.section_parrafos {
+    background-color:#EEE8AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.parrafo {
+    padding:  20px 60px ;
+    background-color: #ffc0cb;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+*/
+/**********  PRODUCTOS  **********/
+/*
+.ventana_tarjetas_productos{
+   background-color: #EEE8AA;
+   
+}*/
+/*
+.todo_tarjetas_seccion {
+    padding-bottom: 5px;
+    padding-left: 15px; 
+    display: flex;
+    flex-direction: column;
+
+}*/
+/*
+.dos_tarjetas_seccion{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    background-color: #EEE8AA;
+    width: 99%;
+    margin: 5px;
+    
+}
+*/
+
+
+/*
+.tarjetas_seccion {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #ffc0cb;
+    width: 99%;
+    padding: 30px;
+    margin-bottom: 10px;
+    gap: 30px; 
+    height: 100%;  
+}
+*//*
+.tarjeta_chocolate {
+    background-color: #EEE8AA;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 20px;
+    display: flex; 
+    flex-direction: column;
+    width: 300px;
+}
+*//*
+.producto_chocolate_imagen {
+    width: 100%;
+    height: 100%; 
+}
+
+.parrafo_chocolate {
+    background-color: #EEE8AA;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20;
+    margin: 30;    
+}
+
+ .precio {
+    justify-content: center;
+ }
+
+.btn_comprar {
+    background-color:#ffc0cb; 
+    color:#131311;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 4%;
+    border: 1px solid #251b03;
+    transition-property: background-color,color,border;
+    transition-duration: 0.4s;
+}
+
+.btn_comprar:hover {
+    transform: scale(1.1);
+    background-color:#b8860b;
+    color:#131311;
+    border: 2px solid #131311;
+}
+
+
+/**********  LOCALES  **********/
+/*
+.ventana_google_maps {
+    background-color:#EEE8AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px 15px 30px 30px; 
+    height: 500px;
+
+}
+
+.maps {
+    background-color: #ffc0cb;
+    display: flex;
+    width: 99%;
+    height: 100%;
+    padding: 15px;
+    justify-content: center;
+}
+
+.iframe {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    justify-content: center; 
+}
+*/
+
+/**********  CONTACTO  *********/
+/*
+.ventana_contacto {
+    background-color: #EEE8AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+*//*
+.formulario {
+    background-color: #ffc0cb;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 99%;
+    padding: 30px;
+    margin: 10px;
+}
+*//*
+.form-control {
+    margin: 20px;
+    background-color: #EEE8AA;
+}
+
+.form-control:hover {
+    background-color:rgba(12, 2, 2, 0.234);
+    border-color: rgba(12, 2, 2, 0.234);
+}
+*//*
+.btn_enviar{
+    background-color: #b8860b;
+    font-family: 'Roboto', sans-serif;
+    font-size-adjust: initial;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 50%;
+    height: 50;
+    width: 30;
+}
+
+.btn_enviar:hover{
+    transform: scale(1.3);
+}
+*//*
+@media screen and (max-width : 1262px) {
+    .tarjetas_seccion {
+        flex-wrap: wrap;
+        background-color: #ffc0cb;
+    } 
+}
+
+@media screen and (max-width : 972px) {
+    .tarjetitas_principal {
+        flex-direction: column;
+        background-color: #ffc0cb;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    } 
+
+    .navbar {
+        background-color: #ffc0cb;
+    }
+
+    .footer {
+        gap :10px;
+    }
+
+    .todo_tarjetas_seccion {
+        padding-bottom: 5px;
+        padding-left: 1px;   
+    }
+
+    .card {
+        width: 80%;
+    } 
+    
+    .tarjetas_seccion {
+        flex-wrap: wrap;
+        background-color: #ffc0cb;
+    } 
+
+    
+
+    .iframe {
+        width: 90%;
+    }
+  
+}
+*/
